@@ -6,6 +6,8 @@ This project demonstrates a simple ETL (Extract, Transform, Load) pipeline built
 It scrapes data from a public website, cleans and transforms the data, then saves it into a CSV file and an SQLite database.
 It also includes a logging system to track each step of the pipeline.
 
+## Technologies Used
+
 | Tool              | Purpose                   |
 | ----------------- | ------------------------- |
 | **Python**        | Main programming language |
