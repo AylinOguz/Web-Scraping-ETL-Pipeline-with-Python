@@ -15,8 +15,8 @@ It also includes a logging system to track each step of the pipeline.
 
 - Load – The transformed data is saved into:
 
-- **A CSV file: transformed_data.csv
+- **A CSV file: transformed_data.csv**
 
-- **An SQLite database: etl_database.db
+- **An SQLite database: etl_database.db**
 
 - Log – All process steps are written to log_file.txt for debugging and traceability.
