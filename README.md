@@ -9,14 +9,14 @@ It also includes a logging system to track each step of the pipeline.
 
 ## How It Works
 
-Extract – The script sends HTTP requests to a website and scrapes data (like product names, prices, or ratings).
+- Extract – The script sends HTTP requests to a website and scrapes data (like product names, prices, or ratings).
 
-Transform – The raw data is cleaned and formatted (e.g., removing symbols, converting data types).
+- Transform – The raw data is cleaned and formatted (e.g., removing symbols, converting data types).
 
-Load – The transformed data is saved into:
+- Load – The transformed data is saved into:
 
 A CSV file: transformed_data.csv
 
 An SQLite database: etl_database.db
 
-Log – All process steps are written to log_file.txt for debugging and traceability.
+- Log – All process steps are written to log_file.txt for debugging and traceability.
