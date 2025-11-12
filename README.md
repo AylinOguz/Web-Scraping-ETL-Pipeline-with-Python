@@ -6,13 +6,17 @@ This project demonstrates a simple ETL (Extract, Transform, Load) pipeline built
 It scrapes data from a public website, cleans and transforms the data, then saves it into a CSV file and an SQLite database.
 It also includes a logging system to track each step of the pipeline.
 
-## Technologies Used
 
- Tool               Purpose                   
+## How It Works
 
-Python        Main programming language 
-| **BeautifulSoup** | Web scraping              |
-| **Requests**      | Sending HTTP requests     |
-| **Pandas**        | Data transformation       |
-| **SQLite**        | Local database            |
-| **Logging**       | Process tracking          |
+Extract – The script sends HTTP requests to a website and scrapes data (like product names, prices, or ratings).
+
+Transform – The raw data is cleaned and formatted (e.g., removing symbols, converting data types).
+
+Load – The transformed data is saved into:
+
+A CSV file: transformed_data.csv
+
+An SQLite database: etl_database.db
+
+Log – All process steps are written to log_file.txt for debugging and traceability.
