@@ -1,5 +1,6 @@
 # Web-Scraping-ETL-Pipeline-with-Python
 
+![image](https://github.com/AylinOguz/Web-Scraping-ETL-Pipeline-with-Python/blob/main/web_scraping.png)
 ## Project Overview
 
 This project demonstrates a simple ETL (Extract, Transform, Load) pipeline built with Python.
