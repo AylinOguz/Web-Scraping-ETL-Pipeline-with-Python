@@ -1,4 +1,5 @@
 # Web-Scraping-ETL-Pipeline-with-Python
+![image](https://github.com/AylinOguz/CLTV_Project/blob/main/Images/cltv.png?raw=true)
 
 ## Project Overview
 
