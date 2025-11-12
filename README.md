@@ -8,9 +8,9 @@ It also includes a logging system to track each step of the pipeline.
 
 ## Technologies Used
 
-| Tool              | Purpose                   |
-| ----------------- | ------------------------- |
-| **Python**        | Main programming language |
+ Tool               Purpose                   
+
+Python        Main programming language 
 | **BeautifulSoup** | Web scraping              |
 | **Requests**      | Sending HTTP requests     |
 | **Pandas**        | Data transformation       |
