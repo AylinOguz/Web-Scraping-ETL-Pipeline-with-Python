@@ -12,7 +12,8 @@ It also includes a logging system to track each step of the pipeline.
 
 - Extract – The script sends HTTP requests to a website and scrapes data (like product names, prices, or ratings).
 
-- Transform – The raw data is cleaned and formatted (e.g., removing symbols, converting data types).
+- Transform – Convert ranking columns to numeric.
+              Replace unranked values with 0.
 
 - Load – The transformed data is saved into:
 
